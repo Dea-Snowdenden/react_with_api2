@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import { Row, Col, Button } from 'react-materialize';
 
 class App extends Component {
   constructor(props) {
@@ -25,12 +26,12 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App" id="pixy">
-        <form onSubmit={this.handleSubmit}>
-          <input value={this.state.term} onChange={this.onChange} />
-          <button btn-btn success >Search!</button>
-        </form>
-        <img src={this.state.img} height="200" alt={this.state.term} />
+      <div className= "App" id="pixy">
+      <form onSubmit={this.handleSubmit}>
+      <input value={this.state.term} onChange={this.onChange} />
+      <Button waves='light'> Search!</Button> 
+      </form>
+      <img src={this.state.img} height="350" alt={this.state.term} />
       </div>
     );
   }
