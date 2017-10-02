@@ -23,9 +23,12 @@ my-app/
 ## FEATURES
 * API
 
-```run npm start
+```
+  run npm start
 ```
 
-```localhost:3000
+
+```
+  localhost:3000
 ```
 
