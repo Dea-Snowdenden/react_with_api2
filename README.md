@@ -1,3 +1,5 @@
+# REACT SAMPLE PROJECT WITH API
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
@@ -22,6 +24,7 @@ my-app/
 
 ## FEATURES
 * API
+* type in any keyword then it would display the giphy
 
 ```
   run npm start
@@ -32,3 +35,4 @@ my-app/
   localhost:3000
 ```
 
+![alt-text](sample.gif)
